@@ -1,0 +1,7 @@
+# 38 - Leia o sálario de um funcionário, calcule e imprima o valor do novo salário, sabendo que ele recebeu um aumento
+# de 25%.
+
+sa = float(input('Informe o valor do seu salário atual R$ '))
+a = sa * 0.25
+ns = sa + a
+print(f'O valor do seu salario com o novo aumento é R$ {ns}')
